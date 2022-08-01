@@ -283,7 +283,8 @@
       /* Listeners */
 
       document.addDelegatedListener('click', '#type-tabs input[type="radio"]', function(event) {
-        getAndUpdate(true);
+				updateMargin();
+				getAndUpdate(true);
       });
       document.addDelegatedListener('input', 'input#margin', function(event) {
         getAndUpdate(false);

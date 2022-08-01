@@ -43,7 +43,7 @@
       }
 
       html, body {
-        width: 1440px;
+        min-width: 1440px;
         height: 100%;
         font-family: "Neue Plak";
       }
