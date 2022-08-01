@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1440">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <title>NOLOYOLO: No-loss Trading</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/main.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <section id="first">
+      <img src="assets/images/illustration.svg"/>
+      <div>
+          <div class="logo-header"></div>
+          <h1 class="c-grey">
+            <span class="c-green">No-loss Trading</span><br />
+            on NOLOYOLO
+          </h1>
+          <h2 class="c-grey-d2">
+            Trade ETH (Long or Short)<br />
+            With Up To 8x Leverage and<br />
+            Make Profits on Every Trade
+          </h2>
+          <a class="button" href="/app">Go No-loss YOLO →</a>
+          <div class="notification text-xl c-grey-d3">
+            Invite-only access at the moment.<br />
+            Live in beta on Arbitrum L2.<br />
+            Connect with Metamask.
+          </div>
+        </div>
+    </section>
+    <section id="steps">
+      <h3 class="strikethrough">Impossible</h3>
+      <h3 class="c-blue-d4">How Is It Possible</h3>
+      <div id="step-1" class="step">
+        <div class="step-content">
+          <div class="step-number-container">
+            <div class="step-line-filler"></div>
+            <div class="step-number">1</div>
+            <div class="step-line step-line-bottom"></div>
+          </div>
+          <div class="step-text">
+            <span class="text-3xl c-grey-d1">
+              Open long or short.<br />
+              Set a take profit and<br />
+              stop loss for your trade.
+            </span>
+          </div>
+        </div>
+        <div class="step-illustration">
+          <img src="assets/images/step-1.png">
+        </div>
+      </div>
+      <div id="step-2" class="step">
+        <div class="step-content">
+          <div class="step-number-container">
+            <div class="step-line step-line-top"></div>
+            <div class="step-number">2</div>
+            <div class="step-line step-line-bottom"></div>
+          </div>
+          <div class="step-text">
+            <span class="text-3xl c-grey-d1">
+              Take profits and<br />
+              pay a share of P&L for<br />
+              no-loss, automatically.
+            </span>
+          </div>
+        </div>
+        <div class="step-illustration">
+          <img src="assets/images/step-2.png">
+        </div>
+      </div>
+      <div id="step-3" class="step">
+        <div class="step-content">
+          <div class="step-number-container">
+            <div class="step-line step-line-top"></div>
+            <div class="step-number">3</div>
+            <div class="step-line step-line-bottom"></div>
+          </div>
+          <div class="step-text">
+            <span class="text-3xl c-grey-d1">
+              If stop-loss is<br />
+              triggered, you also<br />
+              earn money, not lose.
+            </span>
+          </div>
+        </div>
+        <div class="step-illustration">
+          <img src="assets/images/step-3.png">
+        </div>
+      </div>
+      <div id="step-4" class="step">
+        <div class="step-content">
+          <div class="step-number-container">
+            <div class="step-line step-line-top"></div>
+            <div class="step-number">4</div>
+            <div class="step-line-filler step-line-bottom"></div>
+          </div>
+          <div class="step-text">
+            <span class="text-3xl c-grey-d1">
+              Take profits = unlimited upside.<br />
+              Stop loss = guaranteed<br />
+              fixed payout.
+            </span>
+          </div>
+        </div>
+        <div class="step-illustration">
+          <img src="assets/images/step-4.png">
+        </div>
+      </div>
+    </section>
+    <section id="fees">
+      <h3 class="strikethrough">Price and Costs</h3>
+      <h3 class="c-blue-d4">No Upfront Fees</h3>
+      <div class="fees-row">
+        <div class="fees-table">
+          <div class="fees-table-head text-xl c-grey-d3">
+            <div>
+              Fixed payout if<br />
+              stop-loss is triggered
+            </div>
+            <div>
+              Share of P&L to pay when<br />
+              you take profits
+            </div>
+          </div>
+          <div class="fees-table-row text-5xl c-blue-d4">
+            <div>2%</div>
+            <div>20%</div>
+          </div>
+          <div class="fees-table-row text-5xl c-blue-d4">
+            <div>3%</div>
+            <div>30%</div>
+          </div>
+          <div class="fees-table-row text-5xl c-blue-d4">
+            <div>4%</div>
+            <div>40%</div>
+          </div>
+          <div class="fees-table-row text-5xl c-blue-d4">
+            <div>5%</div>
+            <div>50%</div>
+          </div>
+        </div>
+        <div class="fees-description text-xxl c-grey-d2">
+          Choose one of four options.<br />
+          The closer you set your stop-loss<br />
+          to the entry price, the less P&L you<br />
+          will have to pay if you take profits,<br />
+          and vice versa.
+        </div>
+      </div>
+    </section>
+    <section id="calculator">
+      <h3 class="strikethrough">Believe</h3>
+      <h3 class="c-grey">Calculate Your Profits</h3>
+      <div class="calc-row">
+        <div class="calc-border-container">
+          <form id="calc" name="calc">
+            <div class="calc-container">
+                  <input type="hidden" id="entry-price" value="1600">
+                  <div class="type-tabs" id="type-tabs">
+                        <input type="radio" name="type" value="long" id="long" class="type-tab" checked />
+                        <label for="long">
+                      		<span>Long</span>
+                      	</label>
+                        <input type="radio" name="type" value="short" class="type-tab" id="short">
+                        <label for="short">
+                    	  	<span>Short</span>
+                    	  </label>
+                  </div>
+                  <div class="inputs-row">
+                      <div class="input-container">
+                        <div class="input-label text-m">Margin To Pay</div>
+                        <div class="text-input-field">
+                          <input type="number" class="text-input" id="margin" name="margin" placeholder="0.0" value="1" />
+                          <div class="currency" id="margin-currency" data-value="ETH">ETH</div>
+                        </div>
+                      </div>
+                      <div class="gap arrow"></div>
+                      <div class="input-container">
+                        <div class="input-label text-m">Position Size</div>
+                        <div class="text-input-field">
+                          <input type="number" class="text-input" id="position" name="position" placeholder="0.0" value="1.996" disabled />
+                          <div class="currency" id="position-currency" data-value="ETH">ETH</div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="inputs-row">
+                    <div class="input-container">
+                      <div class="input-label text-m">Leverage: <span id="leverage-text" class="c-grey">2x</span></div>
+                      <input type="range" class="range-input" id="leverage" name="leverage" min="2" max="8" value="2" />
+                      <div class="slider-ticks">
+                          <span>2x</span>
+                          <span>4x</span>
+                          <span>6x</span>
+                          <span>8x</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="inputs-row">
+                    <div class="input-container">
+                      <div class="input-label text-m">Set Stop Loss: <span class="c-grey">$<span id="stop-loss-text">---</span></span></div>
+                      <div class="stop-loss-tabs" id="stop-loss-tabs">
+                            <input type="radio" name="stop-loss" value="2" class="stop-loss-tab" id="sl-2" checked />
+                            <label for="sl-2">
+                          		<span>2%</span>
+                          	</label>
+                            <input type="radio" name="stop-loss" value="3" class="stop-loss-tab" id="sl-3">
+                            <label for="sl-3">
+                        	  	<span>3%</span>
+                        	  </label>
+                            <input type="radio" name="stop-loss" value="4" class="stop-loss-tab" id="sl-4">
+                            <label for="sl-4">
+                        	  	<span>4%</span>
+                        	  </label>
+                            <input type="radio" name="stop-loss" value="5" class="stop-loss-tab" id="sl-5">
+                            <label for="sl-5">
+                        	  	<span>5%</span>
+                        	  </label>
+                      </div>
+                    </div>
+                    <div class="gap"></div>
+                    <div class="input-container">
+                      <div class="input-label text-m">Set Take Profit ($)</div>
+                      <div class="text-input-field">
+                        <input type="number" class="text-input" id="take-profit" name="take-profit" value="1760" placeholder="0.0" />
+                        <div class="difference" id="take-profit-percent">+10.0%</div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </form>
+        </div>
+        <div class="calc-result">
+          <div>
+            <div class="text-m c-grey-d2">Entry Price</div>
+            <div class="text-4xl c-grey">$<span id="entry-price-text">---</span></div>
+          </div>
+          <div>
+            <div class="text-m c-grey-d2">No-Loss Payout If Stop Loss Is Triggered</div>
+            <div class="text-4xl c-green"><span id="payout">---</span></div>
+          </div>
+          <div>
+            <div class="text-m c-grey-d2">Your Gains If You Take Profits at the Set Level (After fees)</div>
+            <div class="text-4xl c-green"><span id="profits">---</span></div>
+          </div>
+          <div>
+            <div class="text-m c-grey-d2">No-loss Trade Fee</div>
+            <div class="text-4xl c-grey"><span id="stop-loss-fee-text">---</span> of P&L</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="cta">
+      <h3 class="strikethrough">YOLO Trading</h3>
+      <h3 class="c-grey">No-loss Trading</h3>
+      <a class="button" href="/app">Go No-loss YOLO →</a>
+    </section>
+    <footer>
+      <img src="assets/images/logo-footer.svg" />
+      <div class="text-xl c-grey-d2">
+        2022 © No-loss Trading on NOLOYOLO.com<br />
+        No black swans allowed.
+      </div>
+    </footer>
+    <script type="text/javascript">
+
+      /* Extend EventListener */
+
+      window.EventTarget.prototype.addDelegatedListener = function(type, delegateSelector, listener) {
+          this.addEventListener(type, function (event) {
+              if (event.target && event.target.matches(delegateSelector)) {
+                  listener.call(event.target, event)
+              }
+          });
+      }
+
+      /* Listeners */
+
+      document.addDelegatedListener('click', '#type-tabs input[type="radio"]', function(event) {
+        getAndUpdate(true);
+      });
+      document.addDelegatedListener('input', 'input#margin', function(event) {
+        getAndUpdate(false);
+      });
+      document.addDelegatedListener('input', 'input#take-profit', function(event) {
+        getAndUpdate(false);
+      });
+      document.addDelegatedListener('input', 'input#leverage', function(event) {
+        getAndUpdate(false);
+      });
+      document.addDelegatedListener('click', '#stop-loss-tabs input[type="radio"]', function(event) {
+        getAndUpdate(false);
+      });
+
+      getAndUpdate(true);
+      fetchPrice();
+
+    </script>
+    </body>
+</html>
